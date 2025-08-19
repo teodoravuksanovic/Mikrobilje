@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Kontakt</title>
+    <link rel="icon"  href="mb-slike/favicon.png">
+</head>
+<body style="background-color:#F0F1C5;">
+    <header>
+        <img src="mb-slike/logo.png" alt="Logo Mikrobilje" width="100">
+        <nav>
+            <a href="index.html">Početna</a>
+            <a href="vrste.html">Vrste mikrobilja</a>
+            <a href="uzgoj.html">Kako se uzgaja</a>
+            <a href="galerija.html">Galerija</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+    <h1>Ostanimo u kontaktu!</h1>
+    <form action="mailto:mojeime@gmail.com" method="post">
+        <label for="ime">Ime:</label><br>
+        <input type="text" name="ime"><br>
+        <label for="prezime">Prezime:</label><br>
+        <input type="text" name="prezime"><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" pattern="+@gmail.com" title="Format emaila je vaseime@gmail.com"><br><br>
+        <input type="submit" value="Pošalji!"><br><br>
+        <input type="reset" value="Obriši!"><br><br>
+
+        <label for="pitanje">Da li bi probali mikrobilje?</label>
+        <select name="pitanje" " id="pitanje">
+            <option value="da">DA!</option>
+            <option value="ne">Ne</option>
+        </select>
+    </form>
+    <a href="#top">
+        <button id="dugme_za_vrh">Idi na vrh</button>
+    </a>
+    <footer>
+        <p>&copy; Mikrobilje</p>
+    </footer>
+</body>
+</html>
